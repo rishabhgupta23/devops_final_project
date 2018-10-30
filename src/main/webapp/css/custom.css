@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+	width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-div{
+	margin-top:50%;
+	background:rgba(36,29,29,0.4);
+	border-radius:2px;
+}
+
+.row{
+	height:100%;
+	width: 100%;
+	margin-right:0px;
+	margin-left: 0px;
+}
+
+.form-control{
+	width:100%;
+}
+
+.center-align
+{
+	text-align:center;
+	padding:30px 30px 30px 30px;
+}
